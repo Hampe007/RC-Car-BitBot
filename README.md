@@ -21,7 +21,7 @@ This database can be added as a **add-on** to MakeCode.
 * click **Add-on** under the gear menu
 * search for **https://github.com/hampe007/rc-car-bitbot** and import
 
-## Edit this project ![Byggets statusikon](https://github.com/hampe007/remote-bitbot/workflows/MakeCode/badge.svg)
+## Edit this project ![Byggets statusikon](https://github.com/hampe007/rc-remote-bitbot/workflows/MakeCode/badge.svg)
 
 
 Edit this database in MakeCode.
@@ -57,7 +57,7 @@ Denna databas kan läggas till som ett **tillägg** i MakeCode.
 * klicka på **Tillägg** under kugghjulsmenyn
 * sök efter **https://github.com/hampe007/rc-car-bitbot** och importera
 
-## Redigera detta projekt ![Byggets statusikon](https://github.com/hampe007/remote-bitbot/workflows/MakeCode/badge.svg)
+## Redigera detta projekt ![Byggets statusikon](https://github.com/hampe007/rc-remote-bitbot/workflows/MakeCode/badge.svg)
 
 Redigera den här databasen i MakeCode.
 
