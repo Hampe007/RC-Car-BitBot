@@ -28,7 +28,6 @@ basic.showLeds(`
     . . . . .
     . . . . .
     `)
-music.setVolume(0)
 basic.clearScreen()
 basic.showLeds(`
     . . . . .
@@ -40,6 +39,7 @@ basic.showLeds(`
 basic.clearScreen()
 basic.showIcon(IconNames.Yes)
 basic.clearScreen()
+music.setVolume(0)
 music.stopAllSounds()
 basic.forever(function () {
     bitbot.select_model(BBModel.Classic)
@@ -48,16 +48,24 @@ basic.forever(function () {
 basic.forever(function () {
     if (A == 1) {
         bitbot.setPixelColor(0, 0x00FF00)
+        bitbot.setPixelColor(1, 0x00FF00)
+        bitbot.setPixelColor(2, 0x00FF00)
         bitbot.move(BBMotor.Right, BBDirection.Forward, speed)
     } else {
         bitbot.setPixelColor(0, 0xFF0000)
+        bitbot.setPixelColor(1, 0xFF0000)
+        bitbot.setPixelColor(2, 0xFF0000)
         bitbot.move(BBMotor.Right, BBDirection.Forward, 0)
     }
     if (B == 1) {
         bitbot.setPixelColor(6, 0x00FF00)
+        bitbot.setPixelColor(7, 0x00FF00)
+        bitbot.setPixelColor(8, 0x00FF00)
         bitbot.move(BBMotor.Left, BBDirection.Forward, speed)
     } else {
         bitbot.setPixelColor(6, 0xFF0000)
+        bitbot.setPixelColor(7, 0xFF0000)
+        bitbot.setPixelColor(8, 0xFF0000)
         bitbot.move(BBMotor.Left, BBDirection.Forward, 0)
     }
 })
